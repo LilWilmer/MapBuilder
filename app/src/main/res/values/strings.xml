@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MapBuilder</string>
+    <string name="hi">hi</string>
+    <string name="city_builder">City Builder</string>
+</resources>

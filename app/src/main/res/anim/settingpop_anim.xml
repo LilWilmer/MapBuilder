@@ -1,0 +1,55 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="100dp"
+            android:height="100dp"
+            android:viewportWidth="100"
+            android:viewportHeight="100">
+            <path
+                android:name="path_3"
+                android:pathData="M 50 48.495 C 49.602 48.495 49.221 48.654 48.939 48.936 C 48.658 49.218 48.5 49.601 48.5 50 C 48.5 50.399 48.658 50.782 48.939 51.064 C 49.221 51.346 49.602 51.505 50 51.505 C 50.398 51.505 50.779 51.346 51.061 51.064 C 51.342 50.782 51.5 50.399 51.5 50 C 51.5 49.601 51.342 49.218 51.061 48.936 C 50.779 48.654 50.398 48.495 50 48.495 Z"
+                android:fillColor="#ccffffff"
+                android:strokeColor="#000000"
+                android:strokeWidth="1.5"/>
+            <path
+                android:name="path_1"
+                android:pathData="M 79.583 53.75 C 79.925 52.531 80.065 51.264 80 50 C 80.065 48.736 79.925 47.469 79.583 46.25 L 88.333 39.583 C 88.586 39.225 88.755 38.814 88.827 38.381 C 88.9 37.948 88.873 37.505 88.75 37.083 L 80.833 22.917 C 80.511 22.591 80.117 22.346 79.683 22.202 C 79.249 22.057 78.786 22.016 78.333 22.083 L 68.333 26.25 C 66.3 24.691 64.055 23.428 61.667 22.5 L 60 11.667 C 59.903 11.189 59.641 10.761 59.26 10.456 C 58.88 10.152 58.404 9.99 57.917 10 L 42.083 10 C 41.596 9.99 41.12 10.152 40.74 10.456 C 40.359 10.761 40.097 11.189 40 11.667 L 38.75 22.5 C 36.19 23.332 33.794 24.601 31.667 26.25 L 21.667 22.083 C 21.278 21.938 20.849 21.943 20.464 22.097 C 20.079 22.251 19.764 22.543 19.583 22.917 L 11.25 37.083 C 10.833 37.917 11.25 38.75 12.083 39.583 L 20.417 46.25 C 20.075 47.469 19.935 48.736 20 50 C 19.935 51.264 20.075 52.531 20.417 53.75 L 11.667 60.417 C 11.414 60.775 11.245 61.186 11.173 61.619 C 11.1 62.052 11.127 62.495 11.25 62.917 L 19.167 77.083 C 19.489 77.409 19.883 77.654 20.317 77.798 C 20.751 77.943 21.214 77.984 21.667 77.917 L 31.667 73.75 C 33.7 75.309 35.945 76.572 38.333 77.5 L 40 88.333 C 40.097 88.811 40.359 89.239 40.74 89.544 C 41.12 89.848 41.596 90.01 42.083 90 L 57.917 90 C 58.404 90.01 58.88 89.848 59.26 89.544 C 59.641 89.239 59.903 88.811 60 88.333 L 61.25 77.5 C 63.81 76.668 66.206 75.399 68.333 73.75 L 78.333 77.917 C 78.722 78.062 79.151 78.057 79.536 77.903 C 79.921 77.749 80.236 77.457 80.417 77.083 L 88.75 62.917 C 89.167 62.083 88.75 61.25 87.917 60.417 Z M 50 65 C 46.023 65 42.205 63.419 39.393 60.607 C 36.581 57.795 35 53.977 35 50 C 35 46.023 36.581 42.205 39.393 39.393 C 42.205 36.581 46.023 35 50 35 C 53.977 35 57.795 36.581 60.607 39.393 C 63.419 42.205 65 46.023 65 50 C 65 53.977 63.419 57.795 60.607 60.607 C 57.795 63.419 53.977 65 50 65 Z"
+                android:fillColor="#aaffffff"/>
+            <group android:name="group"/>
+        </vector>
+    </aapt:attr>
+    <target android:name="path_3">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:duration="500"
+                    android:valueFrom="M 50 48.495 C 49.602 48.495 49.221 48.654 48.939 48.936 C 48.799 49.077 48.689 49.243 48.614 49.424 C 48.54 49.605 48.5 49.801 48.5 50 C 48.5 50.399 48.658 50.782 48.939 51.064 C 49.221 51.346 49.602 51.505 50 51.505 C 50.398 51.505 50.779 51.346 51.061 51.064 C 51.342 50.782 51.5 50.399 51.5 50 C 51.5 49.601 51.342 49.218 51.061 48.936 C 50.779 48.654 50.398 48.495 50 48.495 Z"
+                    android:valueTo="M 50 1.225 C 39.712 1.192 29.675 4.436 21.34 10.486 C 13.006 16.536 6.796 25.086 3.611 34.898 C 0.426 44.711 0.426 55.289 3.611 65.102 C 6.796 74.914 13.006 83.464 21.34 89.514 C 29.675 95.564 39.712 98.808 50 98.775 C 62.891 98.775 75.267 93.633 84.383 84.489 C 93.498 75.345 98.624 62.931 98.624 50 C 98.624 37.069 93.498 24.655 84.383 15.511 C 75.267 6.367 62.891 1.225 50 1.225 Z"
+                    android:valueType="pathType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="fillColor"
+                    android:duration="500"
+                    android:valueFrom="#ccffffff"
+                    android:valueTo="#00ffffff"
+                    android:valueType="colorType"
+                    android:interpolator="@android:anim/anticipate_overshoot_interpolator"/>
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="path_1">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="fillColor"
+                android:duration="500"
+                android:valueFrom="#aaffffff"
+                android:valueTo="#ffffff"
+                android:valueType="colorType"
+                android:interpolator="@android:anim/decelerate_interpolator"/>
+        </aapt:attr>
+    </target>
+</animated-vector>

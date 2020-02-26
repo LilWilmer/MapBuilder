@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/spacer"
+    android:background="@drawable/light_background"
+    android:showDividers="middle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/option_background"
+        android:divider="@drawable/spacer"
+        android:showDividers="middle">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COORDINATES:"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/coordinate_text"
+            android:textColor="@color/light_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:divider="@drawable/spacer"
+        android:background="@drawable/option_background"
+        android:showDividers="middle">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TYPE:"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/structure_type_text"
+            android:textColor="@color/light_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/name_field_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/option_background"
+        android:divider="@drawable/spacer"
+        android:showDividers="middle">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME:"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/structure_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_blue"
+            android:inputType="text"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <!-- TODO: ADD A FREAKIN PHOTO BUTTON -->
+
+</LinearLayout>
